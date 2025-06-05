@@ -8,7 +8,7 @@ export default function Manifesto() {
         
         <div className="mb-8 font-light leading-relaxed text-sm">
           <p className="mb-4">
-            I built YESNODEBATE because I was fascinated by Andy Ayrey&apos;s Truth Terminal—but I wanted to see something more dynamic. Something unfolding in real time.
+            I built LEFTRIGHTCLAUDE because I was fascinated by Andy Ayrey&apos;s Truth Terminal—but I wanted to see something more dynamic. Something unfolding in real time.
           </p>
           
           <p className="mb-4">
@@ -20,7 +20,7 @@ export default function Manifesto() {
           </p>
           
           <p className="mb-4">
-            So I created YESNODEBATE: a system that replaces passive observation with adversarial reasoning.
+            So I created LEFTRIGHTCLAUDE: a system that replaces passive observation with adversarial reasoning.
           </p>
           
           <p className="mb-4">
@@ -51,7 +51,7 @@ export default function Manifesto() {
           </p>
           
           <p className="mb-4">
-            YESNODEBATE is a window into the edge of machine reasoning—an attempt to observe how today&apos;s leading models navigate conflict, persuasion, and structured argument in real time.
+            LEFTRIGHTCLAUDE is a window into the edge of machine reasoning—an attempt to observe how today&apos;s leading models navigate conflict, persuasion, and structured argument in real time.
           </p>
           
           <p className="mb-4 italic text-gray-400">

@@ -132,7 +132,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#121212] text-white p-4 pt-16">
       <div className="w-full max-w-4xl mx-auto">
-        {/* ASCII faces for yesnodebate with tooltips */}
+        {/* ASCII faces for leftrightclaude with tooltips */}
         <div className="mb-8 flex justify-center items-center space-x-4">
           <div className="text-center group relative">
             <div 
@@ -178,9 +178,7 @@ export default function Home() {
             <h2 className="text-base text-gray-300 mb-2">
               Leading Topic for Next Debate
             </h2>
-            <p className="text-xs text-gray-400 mb-2">
-              experiment created by <a href="https://x.com/miloleftright" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">@miloleftright</a>
-            </p>
+            
             <div className="mb-4">
               <span className="text-yellow-300 text-lg border-b border-yellow-700 pb-1">{winningTopic}</span>
             </div>

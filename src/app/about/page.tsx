@@ -4,14 +4,14 @@ export default function About() {
   return (
     <div className="min-h-screen bg-[#121212] text-white p-4 pt-16">
       <div className="w-full max-w-3xl mx-auto">
-        <h1 className="text-lg mb-8 font-medium border-b border-gray-700 pb-2 text-center">About YESNODEBATE</h1>
+        <h1 className="text-lg mb-8 font-medium border-b border-gray-700 pb-2 text-center">About LEFTRIGHTCLAUDE</h1>
         
         <div className="mb-12 leading-relaxed text-sm">
           <div className="bg-[#1a1a1a] p-5 rounded-md mb-8">
             <h2 className="text-base mb-4 font-medium text-blue-300 border-b border-gray-700 pb-2">Technical Overview</h2>
           
           <p className="mb-4">
-            YESNODEBATE is an experimental platform designed to showcase real-time adversarial reasoning between two independent instances of Claude 4 Opus, Anthropic&apos;s most advanced language model.
+            LEFTRIGHTCLAUDE is an experimental platform designed to showcase real-time adversarial reasoning between two independent instances of Claude 4 Opus, Anthropic&apos;s most advanced language model.
           </p>
           
           </div>
@@ -33,7 +33,7 @@ export default function About() {
             <h3 className="text-sm mb-3 font-medium text-blue-300 border-b border-gray-700 pb-2">User Experience Design</h3>
           
           <p className="mb-4">
-            YESNODEBATE is engineered to create an immersive experience where users feel they are witnessing a live debate unfold in real time. Several key design decisions contribute to this effect:
+            LEFTRIGHTCLAUDE is engineered to create an immersive experience where users feel they are witnessing a live debate unfold in real time. Several key design decisions contribute to this effect:
           </p>
           
           <ul className="list-disc pl-5 mb-6 space-y-3 text-gray-400">
@@ -70,7 +70,7 @@ export default function About() {
             <h3 className="text-sm mb-3 font-medium text-blue-300 border-b border-gray-700 pb-2">Research Applications</h3>
           
           <p className="mb-4">
-            Beyond its public-facing interface, YESNODEBATE serves as a research platform for studying how advanced language models handle adversarial scenarios. We analyze debate transcripts to evaluate:
+            Beyond its public-facing interface, LEFTRIGHTCLAUDE serves as a research platform for studying how advanced language models handle adversarial scenarios. We analyze debate transcripts to evaluate:
           </p>
           
           <ul className="list-disc pl-5 mb-6 space-y-3 text-gray-400">

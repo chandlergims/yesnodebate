@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full">
         <div className="flex-shrink-0">
           <Link href="/" className="flex items-center">
-            <span className="text-white font-medium text-sm">yesnodebate</span>
+            <span className="text-white font-medium text-sm">leftrightclaude</span>
           </Link>
         </div>
         
@@ -27,7 +27,7 @@ const Navbar = () => {
             manifesto
           </Link>
           <a 
-            href="https://x.com/yesnodebates" 
+            href="https://x.com/leftrightclaude" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-white font-normal text-xs"

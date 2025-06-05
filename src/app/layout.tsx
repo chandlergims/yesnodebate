@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "yesnodebate",
+  title: "leftrightclaude",
   description: "An experimental platform showcasing real-time adversarial reasoning between two independent instances of Claude",
   icons: {
-    icon: "/Untitled design (36).png",
+    icon: "/Untitled design (37).png",
   },
 };
 
