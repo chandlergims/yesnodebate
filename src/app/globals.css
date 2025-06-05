@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121212;
+  --foreground: #ededed;
+  --accent: #ffff00;
+  --terminal-bg: #0a0a0a;
+  --terminal-text: #ededed;
+  --terminal-border: #333333;
+  --nav-bg: #121212;
+  --nav-text: #ededed;
 }
 
 @theme inline {
@@ -12,15 +18,96 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-mono), monospace;
+  text-transform: lowercase;
+}
+
+.terminal {
+  background-color: var(--terminal-bg);
+  color: var(--terminal-text);
+  border: 1px solid var(--terminal-border);
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: var(--font-geist-mono), monospace;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  text-transform: lowercase;
+}
+
+.terminal-header {
+  color: var(--accent);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.user-message {
+  color: #4caf50;
+}
+
+.assistant-message {
+  color: #2196f3;
+}
+
+.conversation-item {
+  border: 1px solid var(--terminal-border);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease;
+}
+
+.conversation-item:hover,
+.terminal-item:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.terminal-item {
+  background-color: var(--terminal-bg);
+  color: var(--terminal-text);
+  transition: all 0.2s ease;
+  text-transform: lowercase;
+}
+
+.typing-indicator {
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Override any capitalization from other components */
+h1, h2, h3, h4, h5, h6, p, a, span, div, button {
+  text-transform: lowercase !important;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #121212;
 }
